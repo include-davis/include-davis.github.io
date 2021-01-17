@@ -1,0 +1,29 @@
+body{
+    font-family:Open Sans;
+    margin:auto;
+    scroll-behavior: smooth;
+}
+#navbar{
+    background-color: #dfdfdf;
+    font-size: 20px;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonrow{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.button{
+    padding-left:20px;
+    padding-right: 20px;
+    text-decoration:none;
+    color: black;
+}
+#navbar-name{
+    font-size:40px;
+    padding-left:20px;
+}
